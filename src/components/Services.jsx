@@ -12,8 +12,8 @@ import {
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
-      <div id="container">
+    <Section id="how-to-use" crosses>
+      <div className="container">
         <Heading
           title="Generative AI made for creators"
           text="BrainSynth unlocks the potential  of AI-powered applications"
