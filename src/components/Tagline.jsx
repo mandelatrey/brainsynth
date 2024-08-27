@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import brackets from '../assets/svg/Brackets';
 
 const Tagline = ({ className, children }) => {

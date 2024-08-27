@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 import Tagline from "./Tagline";
 
 const Heading = ({ className, title, text, tag }) => {
