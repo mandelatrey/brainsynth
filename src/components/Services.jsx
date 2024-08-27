@@ -78,16 +78,16 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-9 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:pt-15 ">
                 <h4 className="h4 mb-4">AI Powered Editing</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
+                  Automatically enhance your beats using our AI app&apos;s
                   music editor.{" "}
-                  <span className="text-purple-600">Try it now</span>
+                  <span className="text-purple-600"> Try it now</span>
                 </p>
               </div>
               <PhotoChatMessage />
             </div>
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 lg:px-8 ">
-                <h4 className="h4 mb-4">Video Generation</h4>
+                <h4 className="h4 mb-4">Beat Generation</h4>
                 <p className="body-2 mb-[2rem] text-n-3 ">
                   The world&apos;s most powerful AI Music Generation technology.
                   What will you create?
