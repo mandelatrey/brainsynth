@@ -3,6 +3,7 @@ import Heading from "./design/Heading";
 import { service1, service2, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import Generating from "./Generating";
+import {PhotoChatMessage, Gradient, VideoChatMessage, VideoBar} from './design/Services';
 
 const Services = () => {
   return (
@@ -58,6 +59,7 @@ const Services = () => {
             />
           </div>
 
+
           <div className="relative z-1 grid gap-5 lg:grid-cols-2 ">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
@@ -69,13 +71,21 @@ const Services = () => {
                   alt="robot"
                 />
               </div>
-              <div className="absolute inset-0 flex flex-col justify-end p-9 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:pt-15 " >
-                <h4 className="h4 mb-4">Smartest AI</h4>
+              <div className="absolute inset-0 flex flex-col justify-end p-9 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:pt-15 ">
+                <h4 className="h4 mb-4">AI Powered Editing</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  BrainSynth unlocks the potential of AI-powered creativity
+                  Automatically enhance your photos using our AI app&apos;s music
+                  editor. <span className="text-purple-600">Try it now</span>
                 </p>
               </div>
+              <PhotoChatMessage />
             </div>
+          </div>
+
+
+
+          <div>
+
           </div>
         </div>
       </div>
